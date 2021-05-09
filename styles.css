@@ -1,0 +1,84 @@
+
+body{
+    background-color: teal;
+}
+
+
+/* main elements and styles */
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-container{
+    background-color: white;
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+/* These are 2 inputs for the form */
+
+
+label{
+    display: block;
+    margin-left: 24px;
+    margin-bottom: 20px;
+}
+
+#emailinput{
+    width: 90%;
+    margin-left: 10px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#passwordinput{
+    width: 90%;
+    margin-left: 10px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* Everything under here affects the button and recovery anchor link */
+
+.submit{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+button{
+    padding: 20px  25px;
+}
+
+a{
+    color: #cccccc;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+   
